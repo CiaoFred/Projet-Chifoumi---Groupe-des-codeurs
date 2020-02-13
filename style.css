@@ -1,3 +1,108 @@
-h1{
-    font-size: 35px;
+/* * * GENERAL RULES * * */
+
+html{
+    font-size: 100%;
+    background-color: black;
 }
+
+body{
+    background-color: white;
+    height: 400px;
+  
+}
+
+body h1{
+    margin-top: 50px;
+    text-transform: uppercase;
+    color: black;
+    font-size: 200px;
+    text-align: center; 
+}
+
+#message{
+    font-size: 50px;
+    text-align: center;
+}
+
+.score{
+    text-align: center;
+    margin-top: 70px;
+}
+
+
+/* * * PLAY-BUTTON * * */
+
+.play-button{
+    text-align: center;
+    font-size: 30px;
+    display: block;
+    width: 120px;
+    height: 50px;
+    color: white;
+    font-size: 40px;
+    line-height: 50px;
+    margin: 0 auto;
+    border-radius: 5px;
+    background: black;
+}
+
+.play-button:hover{
+    background: white;
+    color: black;
+    text-decoration: none;
+    text-transform: none;
+    font-size: 40px;
+    font-weight: bold;
+    border: black 2px solid;
+}
+
+/* * * PLAY PAGE * * */
+
+#icons {
+    text-align: center;
+    font-size: 100px;
+    margin-top: 50px;
+    padding-top: 0px;
+}
+
+#icons #usericons span {
+    color: gray;
+}
+
+#icons #usericons span:hover{
+    color: black;
+    cursor: pointer;
+}
+
+#icons #cpuicons span{
+    color: lightgrey;
+    cursor: initial;
+}
+
+
+
+
+
+
+
+
+
+
+/************ MEDIA QUERY RULES *************/
+
+@media screen and (min-width: 400px){
+
+	div a{
+		width: 32%;
+	}
+}
+
+@media screen and (min-width: 600px){
+
+	div a{
+		width: 24%;
+	}
+}
+
+
+
